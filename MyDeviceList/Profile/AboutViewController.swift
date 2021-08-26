@@ -28,9 +28,9 @@ class AboutViewController: UIViewController {
         self.title = "About"
         self.navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")
-        self.navigationController?.navigationBar.tintColor = .black
-        self.navigationController?.navigationBar.prefersLargeTitles = true
-        self.navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
+        self.navigationController?.navigationBar.tintColor = .white
+//        self.navigationController?.navigationBar.prefersLargeTitles = true
+//        self.navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
         
         view.addSubview(iconImageView)
         iconImageView.snp.makeConstraints { make  in
