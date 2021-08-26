@@ -24,14 +24,10 @@
 
 /* Begin PBXFileReference section */
 		0E3498A5DC79F253D1E4D203 /* Pods_MyDeviceListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDeviceListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17A03E607625A7DBC308742E /* Pods-MyDeviceList-MyDeviceListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceList-MyDeviceListUITests.release.xcconfig"; path = "Target Support Files/Pods-MyDeviceList-MyDeviceListUITests/Pods-MyDeviceList-MyDeviceListUITests.release.xcconfig"; sourceTree = "<group>"; };
 		23C1308657D840BA07C50A94 /* Pods_MyDeviceList_MyDeviceListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDeviceList_MyDeviceListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56733FB63BF51F4437BE8485 /* Pods-MyDeviceListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceListTests.debug.xcconfig"; path = "Target Support Files/Pods-MyDeviceListTests/Pods-MyDeviceListTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8D50B776192BB9DEDB4ABA2E /* Pods-MyDeviceList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceList.release.xcconfig"; path = "Target Support Files/Pods-MyDeviceList/Pods-MyDeviceList.release.xcconfig"; sourceTree = "<group>"; };
-		9DFA291C431610329741B0F8 /* Pods-MyDeviceList-MyDeviceListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceList-MyDeviceListUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyDeviceList-MyDeviceListUITests/Pods-MyDeviceList-MyDeviceListUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A7F63E9B203B6D670BF9C379 /* Pods-MyDeviceList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceList.debug.xcconfig"; path = "Target Support Files/Pods-MyDeviceList/Pods-MyDeviceList.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB66CE2EC1AFD9879FE8DF2 /* Pods-MyDeviceList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceList.debug.xcconfig"; path = "Target Support Files/Pods-MyDeviceList/Pods-MyDeviceList.debug.xcconfig"; sourceTree = "<group>"; };
+		94008FFBB4DD3F520624F843 /* Pods-MyDeviceList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceList.release.xcconfig"; path = "Target Support Files/Pods-MyDeviceList/Pods-MyDeviceList.release.xcconfig"; sourceTree = "<group>"; };
 		BF6ECA8AE38C3783F2B0D764 /* Pods_MyDeviceList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDeviceList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C36B6021416FBD401EF609AF /* Pods-MyDeviceListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceListTests.release.xcconfig"; path = "Target Support Files/Pods-MyDeviceListTests/Pods-MyDeviceListTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC8602DB26D34E0300285766 /* MyDeviceList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDeviceList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8602DE26D34E0300285766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC8602E026D34E0300285766 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,10 +35,6 @@
 		FC8602E726D34E0500285766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8602EA26D34E0500285766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC8602EC26D34E0500285766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC8602F526D34E0500285766 /* MyDeviceListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDeviceListTests.swift; sourceTree = "<group>"; };
-		FC8602F726D34E0500285766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC86030026D34E0500285766 /* MyDeviceListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDeviceListUITests.swift; sourceTree = "<group>"; };
-		FC86030226D34E0500285766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC86030F26D34FBE00285766 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		FC86031126D34FEA00285766 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		FC86031326D36EC300285766 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -64,16 +56,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54B453CA018DFBDA86E5D0F7 /* Pods */ = {
+		5816B3A718533BB0E2185966 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7F63E9B203B6D670BF9C379 /* Pods-MyDeviceList.debug.xcconfig */,
-				8D50B776192BB9DEDB4ABA2E /* Pods-MyDeviceList.release.xcconfig */,
-				9DFA291C431610329741B0F8 /* Pods-MyDeviceList-MyDeviceListUITests.debug.xcconfig */,
-				17A03E607625A7DBC308742E /* Pods-MyDeviceList-MyDeviceListUITests.release.xcconfig */,
-				56733FB63BF51F4437BE8485 /* Pods-MyDeviceListTests.debug.xcconfig */,
-				C36B6021416FBD401EF609AF /* Pods-MyDeviceListTests.release.xcconfig */,
+				8BB66CE2EC1AFD9879FE8DF2 /* Pods-MyDeviceList.debug.xcconfig */,
+				94008FFBB4DD3F520624F843 /* Pods-MyDeviceList.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,11 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				FC8602DD26D34E0300285766 /* MyDeviceList */,
-				FC8602F426D34E0500285766 /* MyDeviceListTests */,
-				FC8602FF26D34E0500285766 /* MyDeviceListUITests */,
 				FC8602DC26D34E0300285766 /* Products */,
-				54B453CA018DFBDA86E5D0F7 /* Pods */,
 				70423D710769079BA4C78927 /* Frameworks */,
+				5816B3A718533BB0E2185966 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,24 +108,6 @@
 				FC8602EC26D34E0500285766 /* Info.plist */,
 			);
 			path = MyDeviceList;
-			sourceTree = "<group>";
-		};
-		FC8602F426D34E0500285766 /* MyDeviceListTests */ = {
-			isa = PBXGroup;
-			children = (
-				FC8602F526D34E0500285766 /* MyDeviceListTests.swift */,
-				FC8602F726D34E0500285766 /* Info.plist */,
-			);
-			path = MyDeviceListTests;
-			sourceTree = "<group>";
-		};
-		FC8602FF26D34E0500285766 /* MyDeviceListUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FC86030026D34E0500285766 /* MyDeviceListUITests.swift */,
-				FC86030226D34E0500285766 /* Info.plist */,
-			);
-			path = MyDeviceListUITests;
 			sourceTree = "<group>";
 		};
 		FC86030E26D34F2A00285766 /* Tools */ = {
@@ -451,7 +420,7 @@
 		};
 		FC86030626D34E0500285766 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7F63E9B203B6D670BF9C379 /* Pods-MyDeviceList.debug.xcconfig */;
+			baseConfigurationReference = 8BB66CE2EC1AFD9879FE8DF2 /* Pods-MyDeviceList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,7 +441,7 @@
 		};
 		FC86030726D34E0500285766 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D50B776192BB9DEDB4ABA2E /* Pods-MyDeviceList.release.xcconfig */;
+			baseConfigurationReference = 94008FFBB4DD3F520624F843 /* Pods-MyDeviceList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
