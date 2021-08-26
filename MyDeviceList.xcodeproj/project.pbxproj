@@ -23,8 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E3498A5DC79F253D1E4D203 /* Pods_MyDeviceListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDeviceListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23C1308657D840BA07C50A94 /* Pods_MyDeviceList_MyDeviceListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDeviceList_MyDeviceListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB66CE2EC1AFD9879FE8DF2 /* Pods-MyDeviceList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceList.debug.xcconfig"; path = "Target Support Files/Pods-MyDeviceList/Pods-MyDeviceList.debug.xcconfig"; sourceTree = "<group>"; };
 		94008FFBB4DD3F520624F843 /* Pods-MyDeviceList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDeviceList.release.xcconfig"; path = "Target Support Files/Pods-MyDeviceList/Pods-MyDeviceList.release.xcconfig"; sourceTree = "<group>"; };
 		BF6ECA8AE38C3783F2B0D764 /* Pods_MyDeviceList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDeviceList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +60,6 @@
 				8BB66CE2EC1AFD9879FE8DF2 /* Pods-MyDeviceList.debug.xcconfig */,
 				94008FFBB4DD3F520624F843 /* Pods-MyDeviceList.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -70,8 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				BF6ECA8AE38C3783F2B0D764 /* Pods_MyDeviceList.framework */,
-				23C1308657D840BA07C50A94 /* Pods_MyDeviceList_MyDeviceListUITests.framework */,
-				0E3498A5DC79F253D1E4D203 /* Pods_MyDeviceListTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

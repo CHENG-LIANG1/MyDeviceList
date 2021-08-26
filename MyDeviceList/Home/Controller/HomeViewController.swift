@@ -73,13 +73,19 @@ class HomeViewController: UIViewController {
             make.right.equalTo(view)
         }
         
-        devicesTableView.isHidden = true
         infoLabel.textAlignment = .center
         infoLabel.numberOfLines = 2
         infoLabel.font = UIFont(name: "Menlo", size: 20)
         infoLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         infoLabel.snp.makeConstraints { make  in
             make.centerY.equalTo(view)
+        }
+        devicesTableView.superview?.bringSubviewToFront(devicesTableView)
+        addButton.superview?.bringSubviewToFront(addButton)
+        if deviceArray.count == 0 {
+            devicesTableView.isHidden = true
+        }else{
+            devicesTableView.isHidden = false
         }
         
     }
@@ -105,8 +111,13 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
                 let devicesToStore = NSKeyedArchiver.archivedData(withRootObject: deviceArray)
                 UserDefaults.standard.setValue(devicesToStore, forKey: "Devices")
                 tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
+            
+            if deviceArray.count == 0 {
+                devicesTableView.isHidden = true
+            }else{
+                devicesTableView.isHidden = false
+            }
         }
-        
         
         
         return [delete]
